@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+BODY{
+	background-color: #7fcafcfb;
+}
+.imagen{
+    text-align: center;
+}
+
+#acerca{
+    position: relative;
+    margin:0px auto;
+    width: 40%;
+}
+
+#acerca::after{
+    content: '';
+    display: flex;
+}
+
+#info {
+    margin: 0px auto;
+    background-color:#0099FF;
+    position:relative;
+    width: 75%;
+}
+
+#info::after{
+    content: '';
+    display: flex;
+    
+}
+
+.completo{
+    position: relative;
+    float: right;
+    text-align: center;
+    width: 40%;
+}
+
+.completo:after {
+    content: '';
+    display: flex;
+  }
+
+

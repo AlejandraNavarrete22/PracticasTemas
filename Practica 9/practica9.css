@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+#caja1{
+    position:static;
+    top: 20px;
+    background-color: red;
+    width: 500px;
+    height: 100px;
+    text-align: center; 
+    border-radius: 20px;   
+}
+
+#caja2{
+    display: inline-block;
+    width: 165px;
+    height: 200px;
+    background-color: blue;
+    text-align: left;
+    border-radius: 20px; 
+}
+
+#caja3{
+    position: relative;
+    display: inline-block;
+    width: 165px;
+    height: 200px;
+    background-color: yellow;
+    text-align: center; 
+    
+}
+
+#caja4{
+    position: relative;
+    display: inline-block;
+    width: 165px;
+    height: 200px;
+    background-color: aqua;
+    text-align: right;
+    border-radius: 20px; 
+}
+
+#caja5{
+    position:static;
+    clear: both;
+    background-color:purple;
+    width: 500px;
+    height: 100px;
+    text-align: center; 
+    border-radius: 20px;   
+}

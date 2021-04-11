@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS DOCUMENT */
+BODY{
+	background-color: #524741;
+}
+
+.box{
+	background-color: #221D1A;
+	margin: 0 auto;
+	width: 80%;
+	height: 110px;
+	display: center;
+}
+
+.box2{
+	background-color: #E6AD2A;
+	width: 80%;
+	height: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.box3{
+	background-color: #221D1A;
+	margin: 0 auto;
+	width: 80%;
+	height: 75px;
+	text-align: center;
+	padding: 5px;
+}
+
+.box4{
+	background-color: #D29E26;
+	margin: 0 auto;
+	width: 80%;
+	height: 200px;
+}
+
+.box5{
+	background-color: #221D1A;
+	margin: 0 auto;
+	width: 80%;
+	height: 1200px;
+}
+
+UL{
+	font-family: "Book Antiqua", "Palatino";
+	font-size: 20px;
+	padding: 10px;
+	text-align: right;
+	color: #FCDE25;
+	list-style-type:none;
+}
+
+UL LI{
+	display: inline;
+	font-size: 20px;
+	padding: 17px;
+}
+
+A{
+	color: #FCDE25;
+	text-decoration: none;
+	
+}
+
+a:hover{
+	color: white;
+}
